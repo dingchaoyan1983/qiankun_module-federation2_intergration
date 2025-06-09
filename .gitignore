@@ -2,10 +2,12 @@
 /.happypack
 /.idea
 /.vscode
-/dist
+**/dist
 **/node_modules
 **/package-lock.json
 /target
 .DS_Store
 .history/
 yarn.lock
+/dist
+.mf

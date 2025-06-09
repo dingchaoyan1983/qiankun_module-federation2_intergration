@@ -12,6 +12,10 @@
     "start:app1": "cd app1 && yarn run start",
     "install:app2": "cd app2 && yarn install",
     "start:app2": "cd app2 && yarn run start",
+    "build:app1": "cd app1 && yarn run build",
+    "build:app2": "cd app2 && yarn run build",
+    "build:main": "cd main && yarn run build",
+    "build:all": "export NODE_OPTIONS=--openssl-legacy-provider&&yarn run build:app1 && yarn run build:app2 && yarn run build:main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

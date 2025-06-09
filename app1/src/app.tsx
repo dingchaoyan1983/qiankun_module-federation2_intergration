@@ -7,7 +7,7 @@ const App = () => (
   <div>
     <h2>App 1</h2>
     <React.Suspense fallback="Loading Button">
-      这是app2的代码模块：<RemoteButton />
+      这是app2的代码模块：<RemoteButton text="fsfsfs"/>
     </React.Suspense>
     <React.Suspense fallback="加载中...">
     	<Header />
