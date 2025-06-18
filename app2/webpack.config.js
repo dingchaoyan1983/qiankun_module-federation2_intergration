@@ -55,7 +55,7 @@ module.exports = {
         new ModuleFederationPlugin({
             name: "app2plus",
             library: { type: "umd", name: "app2plus" },
-            filename: "remoteEntry.js",
+            filename: "remoteEntry.js?t=[contenthash]",
             exposes: {
                 "./Button": "./src/Button",
             },
